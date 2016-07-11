@@ -1,0 +1,34 @@
+{
+  "name": "camelizer",
+  "version": "0.1.0",
+  "description": "Uses camelcase-keys to change all keys of an object and any nested object from PascalCase to lowerCamelCase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "debug": "mocha --debug-brk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkascend/camelify.git"
+  },
+  "keywords": [
+    "camelCase",
+    "mutation",
+    "object",
+    "manipulation"
+  ],
+  "author": "Jusin Kambic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkascend/camelify/issues"
+  },
+  "homepage": "https://github.com/jkascend/camelify#readme",
+  "dependencies": {
+    "camelcase-keys": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.0.1",
+    "mocha": "^2.5.3"
+  }
+}

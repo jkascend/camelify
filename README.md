@@ -1,2 +1,2 @@
-# camelify
-Uses camelize to change all keys of an object and any nested object to camelCase.
+# camelizer
+Uses camelcase-keys to change all keys of an object and any nested object from PascalCase to lowerCamelCase.
